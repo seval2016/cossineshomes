@@ -1,0 +1,13 @@
+@use "../../../styles/variables" as v;
+@use "../../../styles/mixins" as m;
+
+.topbar{
+    background-color: v.$color1;
+    color: v.$color2;
+    padding: 10px 0; 
+    
+
+    .container{
+       @include m.flex($jc:center) ;
+    }
+}
