@@ -4,22 +4,26 @@ $color1: rgb(255, 223, 186);
 $color2: rgb(68, 68, 68);
 $color3: rgb(244, 152, 23);
 $color4: rgb(217, 217, 217);
-$gradient-color: linear-gradient(rgb(244, 152, 23), rgb(241, 223, 198));
-$font-size:3rem;
-$font-weight:500;
+$color5: rgb(147, 147, 147);
 
-$color3-op-50: rgb(244, 152, 23, 0.5);
+$gradient-color: linear-gradient(rgb(244, 152, 23), rgb(241, 223, 198));
+$font-size: 3rem;
+$font-weight: 500;
+
+$color3-op-50: rgba(244, 152, 23, 0.5);
 
 $vendors: ("", "-webkit-", "-moz-", "-ms-", "-o-");
 
 /* BOOTSTRAP */
-$font-family-sans-serif: var(--font-montserrat);
+$font-family-sans-serif: var(--font-oswald);
 $primary: $color1;
 $secondary: $color2;
 
-$btn-border-radius:1.2rem;
-
-$navbar-font-size: $font-size;
-$nav-link-font-weight: $font-weight;
+$btn-border-radius: 1.2rem;
 
 $swal2-confirm-button-background-color: $color1;
+
+/* BODY FONT */
+:root {
+    --bs-body-font-family: var(--font-oswald);
+  }

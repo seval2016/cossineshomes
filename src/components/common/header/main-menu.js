@@ -1,3 +1,5 @@
+
+"use client"
 import React from "react";
 import { Nav } from "react-bootstrap";
 import menuItems from "@/helpers/data/main-menu.json";
@@ -7,7 +9,7 @@ const MainMenu = (props) => {
     <Nav {...props}>
       {menuItems.map((item) => (
         <Nav.Link key={item.title} href={item.Link}>
-      <i className={`${item.icon} fw-bold`}></i> {item.title}
+       {item.title}
         </Nav.Link>
       ))}
     </Nav>

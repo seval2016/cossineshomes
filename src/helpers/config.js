@@ -11,14 +11,14 @@ export const config = {
   contact: {
     info: {
       phone1: {
-        value: "+1-123-456-456-65",
+        value: "+90-563-456-45-65",
         icon: "pi pi-phone",
         link: "tel:+112345645665",
       },
       email: {
-        value: "info@realestate.com",
+        value: "info@cossineshomes.com",
         icon: "pi pi-envelope",
-        link: "mailto:info@realestate.com",
+        link: "mailto:info@cossineshomes.com",
       },
       address: {
         value: "329 Queensberry Street, North Melbourne VIC 3051, Australia",

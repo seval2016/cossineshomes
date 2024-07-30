@@ -1,0 +1,13 @@
+@use "../../../styles/variables" as v;
+@use "../../../styles/mixins" as m;
+
+
+footer{
+    background-color: v.$color2;
+    color: v.$color5;
+    padding: 70px 0;
+
+    .nav-link{
+        color: v.$color5;
+    }
+}
