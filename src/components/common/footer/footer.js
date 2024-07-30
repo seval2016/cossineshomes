@@ -13,15 +13,23 @@ const Footer = () => {
         <Row>
           <Col xl={4}>
             <Logo theme="light" />
-            <p>{config.project.description}</p>
+            <p className="mt-3">{config.project.description}</p>
+            <div className="footer-btn my-4">
+              <a href="#" className=" btn btn-primary py-2">
+                App Store <i className="pi pi-apple"></i>
+              </a>
+              <a href="#" className=" btn btn-primary py-2">
+                Google Play <i className="pi pi-google"></i>
+              </a>
+            </div>
+          </Col>
+          <Col xs={6} lg className="col-center">
+            <h3>Quick Links</h3>
+            <MainMenu  />
           </Col>
           <Col xs={6} lg>
-          <h3>Quick Links</h3>
-            <MainMenu  className="justify-content-center"/>
-          </Col>
-          <Col xs={6} lg>
-          <h3>Contact</h3>
-          <ContactMenu/>
+            <h3 className="mb-4">Contact</h3>
+            <ContactMenu />
           </Col>
         </Row>
       </Container>

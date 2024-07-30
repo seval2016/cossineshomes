@@ -1,13 +1,39 @@
 @use "../../../styles/variables" as v;
 @use "../../../styles/mixins" as m;
 
+footer {
+  background-color: v.$color2;
+  color: v.$color5;
+  padding: 70px 0;
 
-footer{
-    background-color: v.$color2;
-    color: v.$color5;
-    padding: 70px 0;
+  .col-center {
+    @include m.flex($jc: center);
 
-    .nav-link{
-        color: v.$color5;
+    h3 {
+      text-align: center;
+      width: 100%;
+      padding: 0;
+      height: 0;
+      margin: 0;
     }
+  }
+  .nav {
+    @include m.flex($fd: column, $jc: start, $ai: stretch, $gap: 0, $fw: wrap);
+    justify-content: start;
+    .nav-link {
+      color: v.$color5;
+    }
+  }
+
+  .footer-btn {
+    @include m.flex($jc: start, $ai: center, $gap: 15px);
+    padding: 0;
+
+    .btn {
+      border-radius: 8px;
+      background-color: v.$color4;
+      border-color: v.$color4;
+      color: v.$color2;
+    }
+  }
 }
