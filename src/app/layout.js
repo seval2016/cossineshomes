@@ -1,3 +1,4 @@
+import MainMenubar from "@/components/common/header/main-menubar";
 import Topbar from "@/components/common/header/topbar";
 import { config } from "@/helpers/config";
 import{montserrat} from "@/helpers/fonts"
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={montserrat.variable}>
       <body suppressHydrationWarning={true}>
         <Topbar/>
+        <MainMenubar/>
         {children}</body>
     </html>
   );

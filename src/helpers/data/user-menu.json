@@ -1,0 +1,19 @@
+{
+    "admin": [
+        { "title": "Dashboard", "link": "/dashboard" },
+        { "title": "Property Management", "link": "/dashboard/properties" },
+        { "title": "Agent Management", "link": "/dashboard/agents" },
+        { "title": "User Management", "link": "/dashboard/users" },
+        { "title": "Contact Messages", "link": "/dashboard/contact-messages" }
+    ],
+    "agent": [
+        { "title": "Dashboard", "link": "/dashboard" },
+        { "title": "My Properties", "link": "/dashboard/my-properties" },
+        { "title": "Client Inquiries", "link": "/dashboard/inquiries" }
+    ],
+    "user": [
+        { "title": "Dashboard", "link": "/dashboard" },
+        { "title": "My Saved Properties", "link": "/dashboard/saved-properties" },
+        { "title": "My Inquiries", "link": "/dashboard/my-inquiries" }
+    ]
+}

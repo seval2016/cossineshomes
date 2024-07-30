@@ -1,0 +1,19 @@
+{
+    "slides": [
+        {
+            "image": "path/to/slide1.jpg",
+            "title": "Discover Your Dream Home",
+            "description": "Find the perfect property for you."
+        },
+        {
+            "image": "path/to/slide2.jpg",
+            "title": "Best Real Estate Deals",
+            "description": "Unmatched deals for your dream home."
+        },
+        {
+            "image": "path/to/slide3.jpg",
+            "title": "Trusted by Thousands",
+            "description": "Join our satisfied customers."
+        }
+    ]
+}

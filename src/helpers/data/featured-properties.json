@@ -1,0 +1,22 @@
+{
+    "properties": [
+        {
+            "image": "path/to/property1.jpg",
+            "title": "Luxury Villa in Istanbul",
+            "location": "Istanbul, Turkey",
+            "price": "$2,500,000"
+        },
+        {
+            "image": "path/to/property2.jpg",
+            "title": "Modern Apartment in New York",
+            "location": "New York, USA",
+            "price": "$1,800,000"
+        },
+        {
+            "image": "path/to/property3.jpg",
+            "title": "Cozy Cottage in London",
+            "location": "London, UK",
+            "price": "$950,000"
+        }
+    ]
+}

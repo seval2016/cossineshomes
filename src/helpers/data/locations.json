@@ -1,0 +1,7 @@
+{
+    "locations": [
+        { "label": "Istanbul", "value": "ISTANBUL" },
+        { "label": "New York", "value": "NEW_YORK" },
+        { "label": "London", "value": "LONDON" }
+    ]
+}

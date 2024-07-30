@@ -5,6 +5,8 @@ $color2: rgb(68, 68, 68);
 $color3: rgb(244, 152, 23);
 $color4: rgb(217, 217, 217);
 $gradient-color: linear-gradient(rgb(244, 152, 23), rgb(241, 223, 198));
+$font-size:3rem;
+$font-weight:500;
 
 $color3-op-50: rgb(244, 152, 23, 0.5);
 
@@ -14,9 +16,10 @@ $vendors: ("", "-webkit-", "-moz-", "-ms-", "-o-");
 $font-family-sans-serif: var(--font-montserrat);
 $primary: $color1;
 $secondary: $color2;
-$navbar-light-color: $color2;
-$navbar-light-hover-color: $color1;
-$navbar-light-active-color: $color1;
-$navbar-nav-link-padding-x: 1rem;
+
+$btn-border-radius:1.2rem;
+
+$navbar-font-size: $font-size;
+$nav-link-font-weight: $font-weight;
 
 $swal2-confirm-button-background-color: $color1;

@@ -1,0 +1,22 @@
+{
+    "team": [
+        {
+            "name": "John Doe",
+            "position": "CEO",
+            "photo": "path/to/john.jpg",
+            "bio": "John has over 20 years of experience in real estate."
+        },
+        {
+            "name": "Jane Smith",
+            "position": "CFO",
+            "photo": "path/to/jane.jpg",
+            "bio": "Jane is a financial expert with a keen eye for real estate investments."
+        },
+        {
+            "name": "Robert Brown",
+            "position": "COO",
+            "photo": "path/to/robert.jpg",
+            "bio": "Robert ensures our operations run smoothly and efficiently."
+        }
+    ]
+}

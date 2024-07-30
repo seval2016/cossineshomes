@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Home",
+		"link": "/",
+		"icon": "pi pi-home me-2"
+	},
+	{
+		"title": "Properties",
+		"link": "/properties",
+		"icon": "pi pi-building me-2"
+	},
+	{
+		"title": "About",
+		"link": "/about",
+		"icon": "pi pi-info-circle me-2"
+	},
+	{
+		"title": "Contact",
+		"link": "/contact",
+		"icon": "pi pi-phone me-2"
+	}
+]
