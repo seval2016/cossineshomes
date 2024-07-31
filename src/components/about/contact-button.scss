@@ -1,0 +1,20 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.contact-us-left {
+    width: 170px;
+  @include m.button-variant(
+    $c: v.$color2,
+    $border: 1px solid v.$color4,
+
+
+  );
+}
+.contact-us-right{
+    width: 170px;
+    @include m.button-variant(
+      $c: v.$color2,
+      $border: 1px solid v.$color4,
+      $bg: v.$color4,
+    ); 
+}

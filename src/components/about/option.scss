@@ -12,7 +12,7 @@
   
     .options-left {
         @include m.flex($fd: column, $gap:20px);
-        padding: 45px 80px;
+        padding: 30px 80px;
   
       .options-item {
         @include m.flex($jc: start, $ai: center, $gap: 20px, $fw: nowrap);
@@ -34,7 +34,12 @@
   
         .text {
           font-size: 12px;
+   
         }
+      }
+
+      @media (max-width:1024px) {
+        padding: 30px 5px;
       }
     }
 

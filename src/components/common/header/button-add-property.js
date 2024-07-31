@@ -4,7 +4,7 @@ import  "./button-add-property.scss"
 
 const ButtonAddProperty = () => {
   return (
-    <a href={config.contact.addProperty.link} className=" btn btn-outline-primary fw-bold py-2">
+    <a href={config.contact.addProperty.link} className="btn-add-property py-2">
       {config.contact.addProperty.title}<i className={`ms-5 fw-bold ${config.contact.addProperty.icon}`}></i>
     </a>
   );

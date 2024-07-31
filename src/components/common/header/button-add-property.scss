@@ -1,14 +1,13 @@
 @use "../../../styles/variables" as v;
 @use "../../../styles/mixins" as m;
 
-.btn-outline-primary {
-  border-color: v.$color3 !important;
-  border-radius: v.$btn-border-radius !important;
-  color: v.$color2 !important;
-  width:200px;
- 
+.btn-add-property {
+  width: 200px;
+  font-weight: 400;
+  @include m.button-variant();
 
   &:hover {
-    background-color: v.$color3 !important;
+    background-color: v.$color3;
+    color:white;
   }
 }

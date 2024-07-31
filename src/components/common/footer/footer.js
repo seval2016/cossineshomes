@@ -5,6 +5,8 @@ import "./footer.scss";
 import { config } from "@/helpers/config";
 import MainMenu from "../header/main-menu";
 import ContactMenu from "./contact-menu";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FaAppStoreIos } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,11 +17,11 @@ const Footer = () => {
             <Logo theme="light" />
             <p className="mt-3">{config.project.description}</p>
             <div className="footer-btn my-4">
-              <a href="#" className=" btn btn-primary py-2">
-                App Store <i className="pi pi-apple"></i>
+              <a href="#" className=" btn py-2">
+                App Store <FaAppStoreIos  className="fs-4 ms-2"/>
               </a>
-              <a href="#" className=" btn btn-primary py-2">
-                Google Play <i className="pi pi-google"></i>
+              <a href="#" className=" btn  py-2">
+                Google Play <BiLogoPlayStore className="fs-4 ms-2"/>
               </a>
             </div>
           </Col>

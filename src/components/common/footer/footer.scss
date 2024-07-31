@@ -31,10 +31,9 @@ footer {
     padding: 0;
 
     .btn {
-      border-radius: 8px;
-      background-color: v.$color4;
-      border-color: v.$color4;
-      color: v.$color2;
+      width: 150px;
+      @include m.button-variant($bg:v.$color4 ,$border:none, $c:v.$color2,$rd: 8px)
+
     }
   }
 }

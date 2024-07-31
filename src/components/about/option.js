@@ -7,7 +7,7 @@ const Option = () => {
   return (
     <Container className="options">
       <Row>
-        <Col xl={6} lg className="d-flex align-items-center">
+        <Col xl={6} lg className="d-flex justify-content-center align-items-center">
           <div className="options-left">
             <h3 className="mb-3 title">
               Find The Right Selling Option For You
