@@ -1,7 +1,0 @@
-{
-    "categories": [
-        { "label": "Villas", "value": "VILLAS" },
-        { "label": "Apartments", "value": "APARTMENTS" },
-        { "label": "Cottages", "value": "COTTAGES" }
-    ]
-}
