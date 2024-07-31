@@ -8,7 +8,7 @@ const Topbar = () => {
     <div className="topbar">
       <Container>
         <div className="slogan">
-          <i className="pi pi-megaphone"></i>
+          <i className="pi pi-megaphone me-3"></i>
           {config.project.slogan}
         </div>
       </Container>

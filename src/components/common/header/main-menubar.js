@@ -7,7 +7,7 @@ import ButtonAddProperty from "./button-add-property";
 
 const MainMenubar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary mb-3 shadow fw-bold">
+    <Navbar expand="lg" className="bg-body-tertiary mb-3 shadow fw-bold" sticky="top">
       <Container>
         <Logo />
         <Navbar.Toggle aria-controls="main-menu" />
