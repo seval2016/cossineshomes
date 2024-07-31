@@ -3,6 +3,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
 import menuItems from "@/helpers/data/main-menu.json";
+import "./main-menu.scss";
 
 const MainMenu = (props) => {
   return (

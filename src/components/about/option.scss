@@ -12,7 +12,7 @@
   
     .options-left {
         @include m.flex($fd: column, $gap:20px);
-        padding: 30px 80px;
+        padding: 30px 5px;
   
       .options-item {
         @include m.flex($jc: start, $ai: center, $gap: 20px, $fw: nowrap);
@@ -38,8 +38,8 @@
         }
       }
 
-      @media (max-width:1024px) {
-        padding: 30px 5px;
+      @media (min-width: 992px) {
+        padding: 30px 80px;
       }
     }
 

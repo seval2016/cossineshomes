@@ -30,7 +30,7 @@ const Footer = () => {
             <MainMenu  />
           </Col>
           <Col xs={6} lg>
-            <h3 className="mb-4">Contact</h3>
+            <h3>Contact</h3>
             <ContactMenu />
           </Col>
         </Row>

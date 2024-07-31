@@ -5,6 +5,7 @@ import Logo from "./logo";
 import MainMenu from "./main-menu";
 import ButtonAddProperty from "./button-add-property";
 
+
 const MainMenubar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary mb-3 shadow fw-bold" sticky="top">
@@ -20,7 +21,7 @@ const MainMenubar = () => {
             <Offcanvas.Title id="main-menu-title">COSSINES HOMES</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-           <MainMenu className="justify-content-center flex-grow-1 pe-3 fw-bold" />
+           <MainMenu className="justify-content-center flex-grow-1 pe-3" />
            <ButtonAddProperty />
           </Offcanvas.Body>
         </Navbar.Offcanvas>

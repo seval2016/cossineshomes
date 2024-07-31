@@ -2,12 +2,11 @@
 @use "../../../styles/mixins" as m;
 
 .btn-add-property {
-  width: 200px;
+  width: 170px;
   font-weight: 400;
   @include m.button-variant();
 
   &:hover {
     background-color: v.$color3;
-    color:white;
   }
 }

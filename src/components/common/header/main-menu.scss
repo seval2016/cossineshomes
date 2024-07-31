@@ -1,0 +1,7 @@
+@use "../../../styles/variables" as v;
+@use "../../../styles/mixins" as m;
+
+a.nav-link{
+    color: v.$nav-link;
+    font-weight: v.$font-weight;
+}

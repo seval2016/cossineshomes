@@ -35,8 +35,7 @@ export const config = {
 
     addProperty: {
       title: "Add Property",
-      link: "/add-property",
-      icon: "pi pi-arrow-right",
+      link: "/add-property"
     },
 
     socialMedia: {
