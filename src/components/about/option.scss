@@ -1,0 +1,50 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.options {
+    background-color: v.$color1;
+    border-radius: v.$border-radius;
+
+    h3{
+        font-weight: 400;
+        color: v.$color2;
+    }
+  
+    .options-left {
+        @include m.flex($fd: column, $gap:20px);
+        padding: 45px 80px;
+  
+      .options-item {
+        @include m.flex($jc: start, $ai: center, $gap: 20px, $fw: nowrap);
+  
+        .icon {
+          @include m.size($w:70px, $h:70px);
+          background-color: v.$color3;
+          border-radius: 50%;
+          position: relative;
+          flex-shrink: 0;
+  
+          img {
+            position: absolute; 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+  
+        .text {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .options-right{
+        img{
+            @include m.size($w:100%, $h:100%);
+            object-fit: cover;    
+            border-top-right-radius:  v.$border-radius; 
+            border-bottom-right-radius:  v.$border-radius;;   
+        }
+    }
+  }
+  

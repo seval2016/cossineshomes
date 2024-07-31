@@ -2,8 +2,8 @@
 @use "../../styles/mixins" as m;
 
 .page-header {
-	background-image:v.$gradient-color;
-	padding:40px  30px;
-	color: v.$color2;
-    border-radius: 20px;
+  background-image: v.$gradient-color;
+  padding: 40px 30px;
+  color: v.$color2;
+  border-radius: v.$border-radius;
 }

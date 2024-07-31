@@ -22,13 +22,14 @@
 	bottom: 0;
 }
 
-@mixin flex($fd: row, $jc: space-between, $ai: stretch, $gap: 0, $fw: wrap) {
+@mixin flex($fd: row, $jc: space-between, $ai: stretch, $gap: 0, $fw: wrap, $fs:1) {
 	display: flex;
 	flex-direction: $fd;
 	justify-content: $jc;
 	align-items: $ai;
 	gap: $gap;
 	flex-wrap: $fw;
+	flex-shrink:$fs;
 }
 
 @mixin shadow($type, $val) {
@@ -49,4 +50,8 @@
 	-moz-transition: $t;
 	-ms-transition: $t;
 	-o-transition: $t;
+}
+@mixin size($w,$h){
+	width: $w;
+	height: $h;
 }
