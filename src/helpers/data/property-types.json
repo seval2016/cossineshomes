@@ -1,11 +1,8 @@
-{
-    "categories": [
-   
- 
-        { "label": "Houses", "value": "HOUSES" },
-        { "label": "Apartments", "value": "APARTMENTS" },
-        { "label": "Offices", "value": "OFFICES" },
-        { "label": "Villas", "value": "VILLAS" },
-        { "label": "Bungalows", "value": "BUNGALOWS" }
+[
+        { "label": "Houses", "value": "HOUSES", "count":"20","icon": "pi pi-home fs-3"},
+        { "label": "Apartments", "value": "APARTMENTS", "count":"21","icon": "pi pi-building fs-3" },
+        { "label": "Offices", "value": "OFFICES", "count":"85","icon": "pi pi-shop fs-3" },
+        { "label": "Villas", "value": "VILLAS", "count":"15","icon": "pi pi-building-columns fs-3" },
+        { "label": "Bungalows", "value": "BUNGALOWS", "count":"21",	"icon": "pi pi-warehouse fs-3" }
     ]
-}
+

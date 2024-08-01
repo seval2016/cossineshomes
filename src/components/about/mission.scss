@@ -1,0 +1,21 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+
+.mission-right {
+    @include m.flex($gap:30px);
+    padding: 0 20px 20px 20px;
+
+    h5{
+        font-weight: v.$font-weight;
+    }
+  p{
+    font-size: 12px;
+
+  }
+  .circle {
+    background-color: v.$color4;
+    border-radius: 50%;
+    @include m.size($w: 70px, $h: 70px);
+  }
+}

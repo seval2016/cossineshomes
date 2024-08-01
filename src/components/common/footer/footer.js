@@ -17,10 +17,10 @@ const Footer = () => {
             <Logo theme="light" />
             <p className="mt-3">{config.project.description}</p>
             <div className="footer-btn my-4">
-              <a href="#" className=" btn py-2">
+              <a href="#" className="btn py-2">
                 App Store <FaAppStoreIos  className="fs-4 ms-2"/>
               </a>
-              <a href="#" className=" btn  py-2">
+              <a href="#" className="btn py-2">
                 Google Play <BiLogoPlayStore className="fs-4 ms-2"/>
               </a>
             </div>

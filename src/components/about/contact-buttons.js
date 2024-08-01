@@ -5,7 +5,7 @@ import "./contact-button.scss"
 const ContactButtons = () => {
   return (
     <Container>
-      <Row className="d-flex align-items-center ">
+      <Row className="d-flex align-items-center my-4">
         <Col xl={6} lg className="d-flex flex-column align-items-center align-items-md-start">
           <h3>Need help? Talk to our expert .</h3>
           <p>Talk to our experts or Browse through more properties.</p>

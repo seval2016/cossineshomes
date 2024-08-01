@@ -1,0 +1,31 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.container {
+    span{
+        color: v.$color3;
+    }
+  .card {
+    border-radius: v.$border-radius;
+    background-color: v.$color6;
+    border-color: v.$color6;
+    @include m.size($w: 14rem, $h: 15rem);
+    color: v.$color2;
+
+    .icon {
+      @include m.size($w: 50px, $h: 50px);
+      background-color: white;
+      border-radius: 50%;
+      position: relative;
+      flex-shrink: 0;
+    }
+    .card-body {
+      .card-title {
+        font-size: 14px;
+      }
+      .card-subtitle {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,25 +1,23 @@
- [
-      {
+[
+  {
         "name": "İstanbul",
-        "properties": 820
+        "count": 820
       },
       {
         "name": "İzmir",
-        "properties": 320
+        "count": 320
       },
       {
         "name": "Antalya",
-        "properties": 80
+        "count": 80
       },
       {
         "name": "Bursa",
-        "properties": 78
+        "count": 78
       },
       {
         "name": "Ankara",
-        "properties": 410
+        "count": 410
       }
-    ]
- 
 
-  
+    ]
