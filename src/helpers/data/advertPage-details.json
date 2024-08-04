@@ -1,0 +1,29 @@
+{
+  "property": {
+    "title": "Luxury villa in Central Park",
+    "description": "This luxurious villa offers stunning views of the Bosphorus, spacious living areas, and top-notch amenities. Perfect for those seeking comfort and elegance.",
+    "price": "$2500,00",
+
+    "location": {
+      "Country": "Turkey",
+      "City": "Istanbul",
+      "Address": "Central Park, Istanbul"
+    },
+
+    "features": {
+      "Bathrooms": "2",
+      "Bedrooms": "4",
+      "Garage": "1",
+      "Year of Built": "2023",
+      "Furniture": "Yes",
+      "Maintenance fee": "$80",
+      "Terrace": "2"
+    },
+
+    "images": [
+      "/img/advertsPage/advertspage.jpg",
+      "/img/advertsPage/advertspage.jpg",
+      "/img/advertsPage/advertspage.jpg"
+    ]
+  }
+}

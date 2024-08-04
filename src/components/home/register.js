@@ -8,7 +8,7 @@ const Register = () => {
     <Container className="register">
       <Row>
         <Col>
-        <div className="d-flex flex-column h-100 justify-content-center">
+        <div className="d-flex flex-column h-100 justify-content-center p-5 gap-3">
           <h3>Get your dream house</h3>
           <p>
             Turn your aspirations into reality with Get Your Dream House where

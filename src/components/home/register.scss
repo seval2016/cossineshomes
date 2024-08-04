@@ -3,13 +3,24 @@
 
 .register {
   background-color: v.$color1;
+  border-radius: v.$border-radius;
+  h3,
+  p {
+    color: v.$color2;
+  }
   .btn {
-    width:170px;  
+    width: 170px;
     @include m.button-variant(
       $bg: v.$color2,
       $border: 1px solid v.$color2,
       $c: v.$color6,
       $rd: 8px
     );
+  }
+  img {
+    object-fit: cover;
+    @media (min-width: 992px) {
+      
+    }
   }
 }
