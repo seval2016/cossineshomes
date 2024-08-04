@@ -16,12 +16,12 @@ const Page = () => {
        <Spacer />
        <PropertyCities />
        <Spacer />
+       <Register/>
+       <Spacer/>
        <Option />     
        <Spacer />
        <ContactButtons />
        <Spacer />
-       <Register/>
-       <Spacer/>
     </>
   )
 }

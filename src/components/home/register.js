@@ -8,17 +8,25 @@ const Register = () => {
     <Container className="register">
       <Row>
         <Col>
+        <div className="d-flex flex-column h-100 justify-content-center">
           <h3>Get your dream house</h3>
           <p>
             Turn your aspirations into reality with Get Your Dream House where
             your perfect home becomes a possibility.
           </p>
           <a href="#" className="btn py-2">
-                Register Now <i className="pi pi-arrow-up-right"></i>
-              </a>
+            Register Now <i className="pi pi-arrow-up-right"></i>
+          </a>
+        </div>
+          
         </Col>
         <Col>
-          <Image src="/img/register/register.png" width={590} height={370} />
+          <Image
+            src="/img/register/register.png"
+            width={590}
+            height={370}
+            alt=""
+          />
         </Col>
       </Row>
     </Container>

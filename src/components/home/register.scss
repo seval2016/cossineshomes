@@ -4,11 +4,11 @@
 .register {
   background-color: v.$color1;
   .btn {
-    width: 170px;
+    width:170px;  
     @include m.button-variant(
-      $bg: v.$color4,
-      $border: 1px solid v.$color3,
-      $c: v.$color2,
+      $bg: v.$color2,
+      $border: 1px solid v.$color2,
+      $c: v.$color6,
       $rd: 8px
     );
   }
