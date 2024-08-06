@@ -1,0 +1,56 @@
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.propertySlide {
+  border-radius: v.$border-radius;
+  background-color: v.$color6;
+
+  .largeImageContainer {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .thumbnailContainer {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+
+    .thumbnail {
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      overflow: hidden;
+
+      &.activeThumbnail {
+        border-color: #007bff;
+      }
+
+      img {
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  //Properties Information
+}
+.card {
+  background-color: v.$color6;
+  border: v.$color6;
+  border-radius: v.$border-radius;
+  padding: 1rem;
+
+  .card-title {
+    color: v.$color2;
+    margin-bottom: 20px;
+  }
+  .card-text {
+    color: v.$color2;
+  }
+  p{
+    color: v.$color2;
+  }
+}

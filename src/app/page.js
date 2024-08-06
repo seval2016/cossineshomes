@@ -6,6 +6,7 @@ import PropertiesTypes from "@/components/home/properties-types";
 import PropertyCities from "@/components/home/property-cities";
 import ContactButtons from "@/components/about/contact-buttons";
 import Register from "@/components/home/register";
+import Script from 'next/script';
 
 const Page = () => {
   return (

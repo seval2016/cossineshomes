@@ -5,7 +5,6 @@ import Topbar from "@/components/common/header/topbar";
 import { config } from "@/helpers/config";
 import { oswald } from "@/helpers/fonts";
 
-
 export const metadata = {
   title: {
     template: `%s | ${config.project.name}`,

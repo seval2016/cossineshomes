@@ -1,0 +1,25 @@
+
+@use "../../styles/mixins" as m;
+@use "../../styles/variables" as v;
+
+.schedula{
+    background-color: v.$color6;
+    border-radius: v.$border-radius;
+
+    .btn {     
+        @include m.button-variant(
+          $bg: v.$color3,
+          $border: 1px solid v.$color3,
+          $c: v.$color6,
+          $rd: 8px
+        );
+      }
+      h3{
+        margin: 0;
+        font-size:1.5rem;
+        font-weight: v.$font-weight;
+      }
+      span {
+        font-size:14px;
+      }
+}

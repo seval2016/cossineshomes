@@ -1,0 +1,29 @@
+{
+  "property": {
+    "title": "Luxury villa in Central Park",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "price": "$2500,00",
+
+    "location": {
+      "Country": "Turkey",
+      "City": "Istanbul",
+      "Address": "Central Park, Istanbul"
+    },
+    "features": {
+      "Size": "120m²",
+      "Bathrooms": "2",
+      "Bedrooms": "4",
+      "Garage": "1",
+      "Year of Built": "2023",
+      "Furniture": "Yes",
+      "Maintenance fee": "$80",
+      "Terrace": "2"
+    },
+    "images": [
+      "/img/properties/properties.jpg",
+      "/img/properties/properties1.jpg",
+      "/img/properties/properties2.jpg",
+      "/img/properties/properties3.jpg"
+    ]
+  }
+}

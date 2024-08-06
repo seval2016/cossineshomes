@@ -11,8 +11,8 @@ const Mission = () => {
           <Image
             src="/img/mission/mission.jpg"
             alt="option"
-            width={500}
-            height={400}
+            width={650}
+            height={450}
           />
         </Col>
         <Col xl={6} lg className="d-flex align-items-start">

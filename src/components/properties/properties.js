@@ -1,28 +1,30 @@
 "use client";
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import "./adverts.scss";
 import Card from "react-bootstrap/Card";
 import Image from "next/image";
-import Adverts from "@/helpers/data/advert-page.json";
-import AdvertsForm from "./adverts-form";
+import PropertiesPage from "@/helpers/data/properties.json";
+import PropertiesForm from "./properties-form";
+import "./properties.scss";
 
-const AdvertsPage = () => {
+const Properties= () => {
   return (
     <>
-      <Container className="adverts d-flex">
-        <div>
-            <AdvertsForm/>
+      <Container className="properties d-flex gap-5">
+
+        <div className="w-100">
+            <PropertiesForm/>
         </div>
+            
         <Row>
-          {Adverts.map((item, index) => (
-            <Col key="index" className="d-flex">
-              <Card style={{ width: "28rem" }} className="border-0">
+          {PropertiesPage.map((item, index) => (
+            <Col key={index} className="d-flex">
+              <Card style={{ width: "21rem" }} className="border-0 mb-4">
                 <Image
-                  src="/img/advertsPage/advertspage.jpg"
+                  src="/img/properties/properties.jpg"
                   className=""
-                  width={450}
-                  height={400}
+                  width={350}
+                  height={350}
                   alt=""
                 />
                 <Card.Body className="d-flex justify-content-between">
@@ -43,4 +45,4 @@ const AdvertsPage = () => {
   );
 };
 
-export default AdvertsPage;
+export default Properties;

@@ -1,20 +1,20 @@
 import React from "react";
 import PageHeader from "@/components/common/page-header";
 import Spacer from "@/components/common/spacer";
-import AdvertsPage from "@/components/adverst-page/adverts-page";
+import PropertiesDetail from "@/components/properties-detail/properties-detail";
 
 
 
 export const metadata = {
-  title: "Adverts Page"
+  title: "Properties"
 };
 
 const Page = () => {
   return (
     <>
-      <PageHeader title="Adverts Page" />
+      <PageHeader title="Properties"/>
       <Spacer />
-      <AdvertsPage/>
+      <PropertiesDetail/>
       <Spacer/>
     </>
   );
