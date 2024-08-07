@@ -6,7 +6,8 @@ import ContactButtons from "@/components/about/contact-buttons";
 import Mission from "@/components/about/mission";
 
 export const metadata = {
-  title: "About Us"
+  title: "About Us",
+  description:"Learn more about our school,mission,and values."
 };
 
 const Page = () => {

@@ -6,7 +6,8 @@ import Properties from "@/components/properties/properties";
 
 
 export const metadata = {
-  title: "Properties"
+  title: "Properties",
+    description:"Learn more about our school,mission,and values."
 };
 
 const Page = () => {
