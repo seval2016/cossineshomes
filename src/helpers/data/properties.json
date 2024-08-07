@@ -1,52 +1,58 @@
-
 [
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Luxury Villa in Istanbul",
-            "location": "Istanbul, Turkey",
-            "price": "$2500,00"
-        },
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Modern Apartment in New York",
-            "location": "New York, USA",
-            "price": "$1500,00"
-        },
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Cozy Cottage in London",
-            "location": "London, UK",
-            "price": "$950,000"
-        },
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Luxury Villa in Istanbul",
-            "location": "Istanbul, Turkey",
-            "price": "$2500,00"
-        },
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Modern Apartment in New York",
-            "location": "New York, USA",
-            "price": "$1500,00"
-        },
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Cozy Cottage in London",
-            "location": "London, UK",
-            "price": "$950,000"
-        }, {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Luxury Villa in Istanbul",
-            "location": "Istanbul, Turkey",
-            "price": "$2500,00"
-        },
-        {
-            "image": "/img/advertsPage/advertspage.jpg",
-            "title": "Modern Apartment in New York",
-            "location": "New York, USA",
-            "price": "$1500,00"
-        }
-    
-
-    ]
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Luxury Villa in Istanbul",
+    "location": "Istanbul, Turkey",
+    "price": "$2500,00",
+    "discount": "true"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Modern Apartment in New York",
+    "location": "New York, USA",
+    "price": "$1500,00",
+    "discount": "false"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Cozy Cottage in London",
+    "location": "London, UK",
+    "price": "$950,000",
+    "discount": "true"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Luxury Villa in Istanbul",
+    "location": "Istanbul, Turkey",
+    "price": "$2500,00",
+    "discount": "true"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Modern Apartment in New York",
+    "location": "New York, USA",
+    "price": "$1500,00",
+    "discount": "true"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Cozy Cottage in London",
+    "location": "London, UK",
+    "price": "$950,000",
+    "discount": "false"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Luxury Villa in Istanbul",
+    "location": "Istanbul, Turkey",
+    "price": "$2500,00",
+      "discount":"true"
+  },
+  {
+    "image": "/img/advertsPage/advertspage.jpg",
+    "title": "Modern Apartment in New York",
+    "location": "New York, USA",
+    "price": "$1500,00",
+      "discount":"true"
+  }
+]
