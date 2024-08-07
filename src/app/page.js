@@ -6,7 +6,7 @@ import PropertiesTypes from "@/components/home/properties-types";
 import PropertyCities from "@/components/home/property-cities";
 import ContactButtons from "@/components/about/contact-buttons";
 import Register from "@/components/home/register";
-import Featured from "@/components/home/featured";
+import FeaturedProperties from "@/components/home/featured-properties";
 
 const Page = () => {
   return (
@@ -19,7 +19,7 @@ const Page = () => {
        <Spacer />
        <Register/>
        <Spacer/>
-       <Featured />
+       <FeaturedProperties />
        <Spacer />
        <Option />     
        <Spacer />

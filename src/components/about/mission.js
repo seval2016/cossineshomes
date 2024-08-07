@@ -13,6 +13,7 @@ const Mission = () => {
             alt="option"
             width={650}
             height={450}
+            className="img-fluid"
           />
         </Col>
         <Col xl={6} lg className="d-flex align-items-start">

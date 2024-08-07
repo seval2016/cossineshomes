@@ -1,44 +1,37 @@
 @use "../../styles/mixins" as m;
 @use "../../styles/variables" as v;
 
-.properties {
-  .card {
-    object-fit: cover;
-    width:28rem;
-    img {
-      border-radius: v.$border-radius;
+.card {
+  width: 23rem;
+  position: relative;
+  @include m.flex();
+  .inf {
+    width: 84%;
+    background-color: v.$color6;
+    position: absolute;
+    bottom: 30px;
+    padding: 20px;
+    border-radius: v.$border-radius;
+    @include m.shadow($type: box, $val: -1px 2px 3px v.$color5);
+    @include m.flex($jc: space-between, $ai: center);
+    .card-title {
+      font-size: 16px;
     }
-    .card-body {
-      position: absolute;
-      bottom: 5%;
-      left: 5%;
-      background-color: v.$color6;
-      width: 90%;
-      border-radius: v.$border-radius;
-      padding: 20px;
-      box-shadow:-3px 3px 7px v.$color5;
+    .card-text {
+      font-size: v.$small-text;
+    }
+    .btn {
+      font-size: 14px;
+      @include m.button-variant(
+        $bg: transparent,
+        $c: v.$color2,
+        $border: 1px solid v.$color2,
+        $rd:8px
+      );
+    }
+  }
 
-      .card-title{
-        font-weight: v.$font-weight;
-        font-size: 16px;
-      }
-      .card-text{
-        font-size: 14px;
-        color: v.$color5;
-      }
-    
-      .btn {
-        width: 100px;
-        padding: 13px 0px;
-        font-size: 14px;
-        @include m.button-variant(
-          $bg:transparent,
-          $border: 1px solid v.$color2,
-          $c: v.$color2,
-          $rd: 8px
-        );
-      }
-    }
-  
+  @media (min-width: 1024px) {
+    width: 26rem;
   }
 }

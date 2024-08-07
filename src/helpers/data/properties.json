@@ -5,7 +5,7 @@
     "title": "Luxury Villa in Istanbul",
     "location": "Istanbul, Turkey",
     "price": "$2500,00",
-    "discount": "true"
+    "discounted":true
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "Modern Apartment in New York",
     "location": "New York, USA",
     "price": "$1500,00",
-    "discount": "false"
+    "discounted": false
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "Cozy Cottage in London",
     "location": "London, UK",
     "price": "$950,000",
-    "discount": "true"
+    "discounted": true
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "title": "Luxury Villa in Istanbul",
     "location": "Istanbul, Turkey",
     "price": "$2500,00",
-    "discount": "true"
+    "discounted": true
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "title": "Modern Apartment in New York",
     "location": "New York, USA",
     "price": "$1500,00",
-    "discount": "true"
+    "discounted": true
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "title": "Cozy Cottage in London",
     "location": "London, UK",
     "price": "$950,000",
-    "discount": "false"
+    "discounted": false
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "title": "Luxury Villa in Istanbul",
     "location": "Istanbul, Turkey",
     "price": "$2500,00",
-    "discount": "true"
+    "discounted": true
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@
     "title": "Modern Apartment in New York",
     "location": "New York, USA",
     "price": "$1500,00",
-    "discount": "true"
+    "discounted": true
   }
 ]

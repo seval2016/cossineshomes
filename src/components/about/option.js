@@ -69,6 +69,7 @@ const Option = () => {
               alt="option"
               width={500}
               height={400}
+               className="img-fluid"
             />
         </Col>
       </Row>

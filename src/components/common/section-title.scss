@@ -1,0 +1,11 @@
+@use "../../styles/variables" as v;
+@use "../../styles/mixins" as m;
+
+
+.section-title{
+margin: 0;
+}
+.section-subTitle{
+    color: v.$color3;
+    font-size: v.$small-text;
+}

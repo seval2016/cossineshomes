@@ -3,12 +3,12 @@ import React from "react";
 import { Container, Row, Card,Col } from "react-bootstrap";
 import "./properties-types.scss";
 import propertyTypes from "@/helpers/data/property-types.json";
+import SectionTitle from "../common/section-title";
 
 const PropertiesTypes = () => {
   return (
-<Container>
-  <h3>Explore Properties</h3>
-  <span>By Types</span>
+<Container className="propertyTypes">
+ <SectionTitle  title={"Explore Properties"} subTitle={"By Types"}/>
   <Row className="properties-types" >
     {propertyTypes.map((item) => (
       <Col key={item.label} className=" d-flex justify-content-center align-items-center my-4 wrap">

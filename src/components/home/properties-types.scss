@@ -1,10 +1,7 @@
 @use "../../styles/mixins" as m;
 @use "../../styles/variables" as v;
 
-.container {
-    span{
-        color: v.$color3;
-    }
+.propertyTypes {
   .card {
     border-radius: v.$border-radius;
     background-color: v.$color6;
