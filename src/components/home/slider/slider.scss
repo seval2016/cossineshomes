@@ -1,0 +1,119 @@
+@use "../../../styles/mixins" as m;
+@use "../../../styles/variables" as v;
+
+.slider-container {
+	position: relative;
+
+	.search-tab {
+		position: absolute;
+		top: 55%;
+		left: 34%;
+		transform: translate(-50%, -50%);
+		background: v.$color6;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		width: 100%;
+		max-width: 700px;
+        z-index: 3;
+
+		.nav-pills .nav-link {
+			border: 1px solid v.$color4;
+			margin-right: 5px;
+			color: v.$color2;
+		}
+
+		.nav-pills .nav-link.active {
+			background-color: v.$color1;
+			border-color: v.$color1;
+			color: v.$color2;
+		}
+
+		.search-bar {
+			display: flex;
+			align-items: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+
+			input {
+				flex: 1;
+				padding: 10px;
+				border: 1px solid v.$color4;
+				border-radius: 5px 0 0 5px;
+				outline: none;
+			}
+
+			button {
+				background-color: v.$color1;
+				color: v.$color2;
+				border: none;
+				padding: 11px;
+				border-radius: 0 5px 5px 0;
+				cursor: pointer;
+			}
+		}
+
+		.property-type {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+
+			.form-check {
+				flex: 1 1 20%;
+				margin-right: 10px;
+				margin-bottom: 10px;
+
+				label {
+					margin-left: 5px;
+				}
+			}
+		}
+		.form-check-input:checked{
+			background-color: v.$color3;
+			border-color: v.$color3;
+		}
+	}
+}
+
+.main-slider {
+	img {
+		width: 100%;
+		height: calc(100vh - 150px);
+		object-fit: cover;
+		object-position: left top;
+
+		@media (min-width: 1200px) {
+			object-position: right top;
+		}
+	}
+
+	.carousel-caption {
+		bottom: 70%;
+		@include m.transform(translateY(50%));
+
+		h3 {
+			font-size: 2rem;
+			color: v.$color6;
+     
+			@include m.shadow($type:text, $val:2px 2px v.$color2);
+		}
+		p {
+			font-size: 1.1rem;
+		}
+
+		@media (min-width: 576px) {
+			h3 {
+				font-size: 2.7rem;
+				width: 70%;
+			}
+			p {
+				font-size: 1.2rem;
+			}
+		}
+
+		@media (min-width: 1200px) {
+			text-align: left;
+			width: 50%;
+		}
+	}
+}

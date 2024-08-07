@@ -9,7 +9,7 @@ const MainMenu = (props) => {
   return (
     <Nav {...props}>
       {menuItems.map((item) => (
-        <Nav.Link key={item.title} href={item.Link}>
+        <Nav.Link key={item.title} href={item.link}>
        {item.title}
         </Nav.Link>
       ))}
