@@ -16,7 +16,6 @@ const DetailInformation = () => {
 
   return (
     <div className="d-flex flex-column gap-5">
-
       {/* Description Section */}
       <Card className="description mt-4">
         <Card.Body>
@@ -84,11 +83,18 @@ const DetailInformation = () => {
             </Col>
           </Row>
           <div className="map-container">
-            <p>Buraya Harita Gelecek</p>
+            <iframe
+              src={location.embed}
+              width="100%"
+              height="450"
+              style={{border:0}}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </Card.Body>
       </Card>
-
     </div>
   );
 };

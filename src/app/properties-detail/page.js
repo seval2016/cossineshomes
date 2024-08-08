@@ -7,7 +7,7 @@ import PropertiesDetail from "@/components/properties-detail/properties-detail";
 
 export const metadata = {
   title: "Properties",
-    description:"Learn more about our school,mission,and values."
+    description:"Learn more about ourproperties detail"
 };
 
 const Page = () => {

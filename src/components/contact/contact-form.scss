@@ -1,0 +1,34 @@
+@use "../../styles/variables" as v;
+@use "../../styles/mixins" as m;
+
+.contact-form {
+	.input-group-text {
+		background: none;
+		color: v.$color3;
+		border: none;
+	}
+
+	.form-control {
+		border: none;
+		border-bottom: 1px solid v.$color4;
+		@include m.border-radius(0);
+	}
+
+	.invalid-feedback {
+		margin-left: 50px;
+	}
+	.btn{
+		width: 150px;
+		@include m.button-variant(
+		  $bg: transparent,
+		  $border: 1px solid v.$color3,
+		  $c: v.$color3,
+		  $rd: 8px
+		);
+		&:hover{
+			background-color: v.$color3;
+			color: v.$color6;
+
+		}
+	}
+}

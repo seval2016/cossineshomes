@@ -7,7 +7,7 @@ import Mission from "@/components/about/mission";
 
 export const metadata = {
   title: "About Us",
-  description:"Learn more about our school,mission,and values."
+  description:"Learn more about our mission and values."
 };
 
 const Page = () => {

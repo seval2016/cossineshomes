@@ -1,22 +1,19 @@
 import React from "react";
 import PageHeader from "@/components/common/page-header";
 import Spacer from "@/components/common/spacer";
-import Properties from "@/components/properties/properties";
-
-
+import Contact from "@/components/contact/contact";
 
 export const metadata = {
-  title: "Properties",
-    description:"Learn more about our properties."
+  title: "Contact Us",
+  description: "Get in touch us! Find our address, phone number and email. ",
 };
 
 const Page = () => {
   return (
     <>
-      <PageHeader title="Properties"/>
+      <PageHeader title="Contact Us" />
       <Spacer />
-      <Properties/>
-      <Spacer/>
+      <Contact/>
     </>
   );
 };
