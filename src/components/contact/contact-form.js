@@ -18,6 +18,7 @@ const ContactForm = () => {
                 <i className="pi pi-id-card"></i>
               </InputGroup.Text>
               <Form.Control
+                name="name"
                 placeholder="Name"
                 aria-label="Name"
                 aria-describedby="name"
@@ -30,6 +31,7 @@ const ContactForm = () => {
                 <i className="pi pi-envelope"></i>
               </InputGroup.Text>
               <Form.Control
+                name="email"
                 placeholder="Email"
                 aria-label="Email"
                 aria-describedby="email"
@@ -42,6 +44,7 @@ const ContactForm = () => {
                 <i className="pi pi-tag"></i>
               </InputGroup.Text>
               <Form.Control
+                name="subject"
                 placeholder="Subject"
                 aria-label="Subject"
                 aria-describedby="subject"
@@ -54,6 +57,7 @@ const ContactForm = () => {
                 <i className="pi pi-pen-to-square"></i>
               </InputGroup.Text>
               <Form.Control
+                name="message"
                 as="textarea"
                 placeholder="Message"
                 aria-label="Message"
