@@ -11,14 +11,14 @@
 	.form-control {
 		border: none;
 		border-bottom: 1px solid v.$color4;
-		@include m.border-radius(0);
+		@include m.border-radius(0);font-size: 16px;
 	}
 
 	.invalid-feedback {
 		margin-left: 50px;
 	}
 	.btn{
-		width: 150px;
+		font-size: 16px;
 		@include m.button-variant(
 		  $bg: transparent,
 		  $border: 1px solid v.$color3,

@@ -12,11 +12,11 @@ const Contact = () => {
         <Container>
             <Row className="g-5">
                 <Col lg={8}>
-                    <h2 className="mb-4">Send Message</h2>
+                    <h4 className="mb-4">Send Message</h4>
                     <ContactForm/>
                 </Col>
                 <Col lg={4}>
-                    <h2 className="mb-4">Get In Touch</h2>
+                    <h4 className="mb-4">Get In Touch</h4>
                     <ContactMenu className="flex-column"/>
                 </Col>
             </Row>
