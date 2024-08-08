@@ -22,7 +22,11 @@ const ContactForm = () => {
                 placeholder="Name"
                 aria-label="Name"
                 aria-describedby="name"
+                isInvalid={!!state?.errors?.name} //hatayı kırmızı renkte gösterme
               />
+              <Form.Control.Feedback type="invalid"> 
+                {state?.errors?.name}
+              </Form.Control.Feedback>
             </InputGroup>
           </Col>
           <Col md={6}>
@@ -35,7 +39,11 @@ const ContactForm = () => {
                 placeholder="Email"
                 aria-label="Email"
                 aria-describedby="email"
+                isInvalid={!!state?.errors?.email}
               />
+              <Form.Control.Feedback type="invalid">
+                {state?.errors?.email}
+              </Form.Control.Feedback>
             </InputGroup>
           </Col>
           <Col xs={12}>
@@ -48,7 +56,11 @@ const ContactForm = () => {
                 placeholder="Subject"
                 aria-label="Subject"
                 aria-describedby="subject"
+                isInvalid={!!state?.errors?.subject}
               />
+              <Form.Control.Feedback type="invalid">
+								{state?.errors?.subject}
+							</Form.Control.Feedback>
             </InputGroup>
           </Col>
           <Col xs={12}>
@@ -62,7 +74,11 @@ const ContactForm = () => {
                 placeholder="Message"
                 aria-label="Message"
                 aria-describedby="message"
+                isInvalid={!!state?.errors?.message}
               />
+              <Form.Control.Feedback type="invalid">
+								{state?.errors?.message}
+							</Form.Control.Feedback>
             </InputGroup>
           </Col>
         </Row>

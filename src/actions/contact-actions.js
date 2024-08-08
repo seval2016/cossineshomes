@@ -1,6 +1,13 @@
 "use server";
-import { response,transformYupErrors,YupValidationError } from "@/helpers/form-validation";
+import {
+  response,
+  transformYupErrors,
+  YupValidationError,
+  convertFormDataToJson,
+} from "@/helpers/form-validation";
 
+import { ContactSchema } from "@/helpers/schemas/contact-schema";
+//import { revalidatePath } from "next/cache";
 
 //1.aşama : gelen datayı json'a çevirme
 export const createContactAction = async (prevData, formData) => {
@@ -14,12 +21,11 @@ export const createContactAction = async (prevData, formData) => {
     const data = await res.json();
 
     if (!res.ok) {
-      return response(false,"",{});
+      return response(false, "", {});
     }
 
-   // revalidatePath("/dashboard/admin");
-    return response(true,"Your message was sent",{});
-
+    // revalidatePath("/dashboard/admin");
+    return response(true, "Your message was sent", {});
   } catch (err) {
     if (err instanceof YupValidationError) {
       return transformYupErrors(err.inner);
