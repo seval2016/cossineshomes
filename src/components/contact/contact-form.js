@@ -1,11 +1,16 @@
 import React from "react";
 import { Button, Row, Col, Form, InputGroup } from "react-bootstrap";
-import "./contact-form.scss"
+import "./contact-form.scss";
+import { useFormState } from "react-dom";
+import { createContactAction } from "@/actions/contact-actions";
+import { initialResponse } from "@/helpers/form-validation";
 
 const ContactForm = () => {
+  const [state, dispatch] = useFormState(createContactAction, initialResponse);
+
   return (
     <div className="contact-form">
-      <Form action="">
+      <Form action={dispatch}>
         <Row>
           <Col md={6}>
             <InputGroup className="mb-3" size="lg">
@@ -57,13 +62,9 @@ const ContactForm = () => {
             </InputGroup>
           </Col>
         </Row>
-        <Button
-					size="lg"
-					type="submit"
-					className="btn mt-3"
-				>
-					<i className="pi pi-send me-2"></i> Send
-				</Button>
+        <Button size="lg" type="submit" className="btn mt-3">
+          <i className="pi pi-send me-2"></i> Send
+        </Button>
       </Form>
     </div>
   );
